@@ -7,8 +7,15 @@ public class Main {
         Time one=new Time();
         System.out.println(one);
         one.previousSecond();
+
+        one.nextSecond();
+        System.out.println(one);
         System.out.println(one);
         one.nextSecond();
+        System.out.println(one);
+        one.nextSecond();
+        System.out.println(one);
+        one.previousSecond();
         System.out.println(one);
 
     }
